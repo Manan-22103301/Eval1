@@ -33,7 +33,7 @@ int main() {
 
     cout << "Character frequencies:\n";
     for (const auto& entry : freqMap) {
-        std::cout << entry.first << ": " << entry.second << "\n";
+        cout << entry.first << ": " << entry.second << "\n";
     }
 
     return 0;
