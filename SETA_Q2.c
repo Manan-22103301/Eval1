@@ -3,6 +3,8 @@
 #include <cctype>
 #include <string>
 
+using namespace std;
+
 
 bool isLetter(char ch) {
     return std::isalpha(static_cast<unsigned char>(ch));
@@ -38,5 +40,3 @@ int main() {
 
     return 0;
 }
-
-
